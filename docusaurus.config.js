@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'SensrosConnect',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -25,7 +25,7 @@ const config = {
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
+  deploymentBranch:'gh-pages',
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
